@@ -1,0 +1,18 @@
+:root{
+  --primary-color: #3F3F3F;
+  --second-color: #161616;
+  --third-color: #202020;
+
+  --neon-color: #13FF00;
+
+  --gray-one: #C1C1C1;
+  --gray-two: #E2E2E2;
+
+  --white-main: #FFFFFF;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
