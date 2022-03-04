@@ -43,7 +43,7 @@ export const Home = () => {
   return (
     <section className='container'>
       {!!searchValue && (<h1>Search Value: {searchValue}</h1>)}
-      <SearchImput searchValue={searchValue} handleSerch={handleSearch} />
+      <SearchImput searchValue={searchValue} handleSearch={handleSearch} />
       {filteredPosts.length === 0 && (<p>Não há posts com esse Titulo</p>)}
       {!searchValue ? <Posts posts={posts} id={posts.id} /> : <Posts posts={filteredPosts} id={filteredPosts.id} />}
       {!searchValue && (<Button text='Carregar mais Posts' click={loadMorePosts} disabled={noMorePosts} />)}

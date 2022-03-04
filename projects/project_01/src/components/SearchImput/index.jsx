@@ -5,7 +5,7 @@ export const SearchImput = ({ searchValue, handleSearch }) => {
         <div className='search-input'>
             <label>Filter posts: </label>
             <input
-                type='search'
+                type='text'
                 onChange={handleSearch}
                 value={searchValue}
             ></input>
